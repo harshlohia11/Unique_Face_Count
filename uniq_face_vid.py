@@ -4,7 +4,7 @@ import argparse
 from imutils import paths
 import os
 
-command2png = "ffmpeg -i myvid.mp4 -vf fps=1 images//image%d.png"
+command2png = "ffmpeg -i input.mp4 -vf fps=1 images//image%d.png"
 os.system(command2png)
 # ARGPARSE FOR COMMOND-LINE INTERFACES ( * give folder name throug commond line )
 ap = argparse.ArgumentParser()
