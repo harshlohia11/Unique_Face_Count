@@ -13,7 +13,8 @@ Pre-requisites for running this python script-
 To run the python script open your terminal and run the following command-
 
 ```
-python uniq_face_
+python uniq_face_vid.py --images images 
 ```
 
+Note- Before executing the above command make sure to have a <b>images</b> folder and the required input video file in the same directory where your python script is running.
 
