@@ -13,7 +13,7 @@ Pre-requisites for running this python script-
 To run the python script open your terminal and run the following command-
 
 ```
-python 
+python uniq_face_
 ```
 
 
